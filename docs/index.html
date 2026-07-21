@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
+  >
+
+  <title>UptiLink — Android Network & Uptime Monitor</title>
+
+  <meta
+    name="description"
+    content="Monitor NAS devices, servers, routers, Raspberry Pi systems and homelab equipment from Android. Get network outage and recovery alerts."
+  >
+
+  <meta
+    name="keywords"
+    content="Android network monitor, ping monitor for Android, LAN monitoring app, network uptime monitor, NAS monitoring app, server monitoring from Android, homelab monitoring, Raspberry Pi monitoring, router uptime monitor, network outage alerts, device reachability monitor, Wi-Fi-aware monitoring, monitoring without a server"
+  >
+
+  <meta name="author" content="UptiLink">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#07111f">
+  <meta name="color-scheme" content="dark">
+
+  <!-- Replace this if your GitHub Pages URL is different. -->
+  <link
+    rel="canonical"
+    href="https://reelmemories.github.io/uptilink/"
+  >
+
+  <link rel="icon" type="image/png" href="assets/logo_text.png">
+  <link rel="stylesheet" href="assets/styles.css">
+
+  <!-- Social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="UptiLink">
+  <meta
+    property="og:title"
+    content="UptiLink — Android Network & Uptime Monitor"
+  >
+  <meta
+    property="og:description"
+    content="Scan your LAN, monitor important network devices and receive outage alerts directly on Android."
+  >
+  <meta
+    property="og:url"
+    content="https://reelmemories.github.io/uptilink/"
+  >
+  <meta
+    property="og:image"
+    content="https://reelmemories.github.io/uptilink/assets/feature.png"
+  >
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta
+    name="twitter:title"
+    content="UptiLink — Android Network & Uptime Monitor"
+  >
+  <meta
+    name="twitter:description"
+    content="Simple Wi-Fi-aware network monitoring directly from Android."
+  >
+  <meta
+    name="twitter:image"
+    content="https://reelmemories.github.io/uptilink/assets/feature.png"
+  >
+
+  <!-- Search engine structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "UptiLink",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "Android",
+    "description": "An Android network and uptime monitoring app for monitoring servers, NAS systems, routers, Raspberry Pi devices and other equipment on a local network.",
+    "url": "https://reelmemories.github.io/uptilink/",
+    "image": "https://reelmemories.github.io/uptilink/assets/feature.png",
+    "featureList": [
+      "Local network scanning",
+      "Ping-based uptime monitoring",
+      "Network outage alerts",
+      "Device recovery notifications",
+      "Wi-Fi-aware monitoring",
+      "Device groups",
+      "Maintenance mode",
+      "Android home screen widget",
+      "Monitoring without a dedicated server"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="nav-container">
+      <a class="brand" href="#top" aria-label="UptiLink home">
+        <img
+          src="assets/logo_text.png"
+          alt="UptiLink"
+          class="brand-logo"
+        >
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#features">Features</a>
+        <a href="#use-cases">Use cases</a>
+        <a href="#screenshots">Screenshots</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <!-- Replace # with your Google Play listing URL. -->
+      <a
+        class="button button-small button-primary"
+        href="#download"
+        aria-label="Get UptiLink for Android"
+      >
+        Get UptiLink
+      </a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="top">
+      <div class="hero-glow hero-glow-one"></div>
+      <div class="hero-glow hero-glow-two"></div>
+
+      <div class="page-container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">
+            <span class="status-dot"></span>
+            Android network monitoring, simplified
+          </div>
+
+          <h1>
+            Know when your
+            <span class="gradient-text">network devices go offline.</span>
+          </h1>
+
+          <p class="hero-description">
+            UptiLink turns your Android device into a clean, capable network
+            uptime monitor. Scan your LAN, add the devices that matter and
+            receive clear outage and recovery alerts.
+          </p>
+
+          <div class="hero-actions">
+            <!-- Replace # with your Google Play listing URL. -->
+            <a class="button button-primary button-large" href="#download">
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                class="button-icon"
+              >
+                <path
+                  fill="currentColor"
+                  d="M3.6 2.4 13.8 12 3.6 21.6c-.4-.5-.6-1.1-.6-1.8V4.2c0-.7.2-1.3.6-1.8Zm11.6 10.9 2.5 2.4L6.2 22.2l9-8.9Zm3.8-3.5 2.6 1.5c.9.5.9 1.9 0 2.4L19 15.2 16.5 12 19 9.8ZM6.2 1.8l11.5 6.5-2.5 2.4-9-8.9Z"
+                />
+              </svg>
+              Get it on Google Play
+            </a>
+
+            <a
+              class="button button-secondary button-large"
+              href="https://youtu.be/Lr0KY6gQuv0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                class="button-icon"
+              >
+                <path
+                  fill="currentColor"
+                  d="M8.5 7.2v9.6L17 12 8.5 7.2Z"
+                />
+              </svg>
+              Watch overview
+            </a>
+          </div>
+
+          <div class="hero-benefits" aria-label="Main benefits">
+            <span>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="m5 12 4 4L19 6"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              No monitoring server
+            </span>
+
+            <span>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="m5 12 4 4L19 6"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              No agents to install
+            </span>
+
+            <span>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="m5 12 4 4L19 6"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Wi-Fi-aware
+            </span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-shell">
+            <div class="visual-status-bar">
+              <span class="visual-status-live">
+                <span class="pulse-dot"></span>
+                Monitoring active
+              </span>
+              <span>Local network</span>
+            </div>
+
+            <img
+              src="assets/dashboard.png"
+              alt="UptiLink Android network monitoring dashboard showing device availability"
+              class="hero-app-image"
+            >
+
+            <div class="floating-card floating-card-left">
+              <span class="floating-icon online-icon"></span>
+              <span>
+                <strong>NAS Online</strong>
+                <small>Reply received</small>
+              </span>
+            </div>
+
+            <div class="floating-card floating-card-right">
+              <span class="floating-icon alert-icon">!</span>
+              <span>
+                <strong>Outage alerts</strong>
+                <small>Know when status changes</small>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="value-strip" aria-label="UptiLink benefits">
+      <div class="page-container value-strip-grid">
+        <div>
+          <strong>Scan</strong>
+          <span>Discover devices on your LAN</span>
+        </div>
+
+        <div>
+          <strong>Monitor</strong>
+          <span>Track availability from Android</span>
+        </div>
+
+        <div>
+          <strong>Alert</strong>
+          <span>Receive outage and recovery notices</span>
+        </div>
+
+        <div>
+          <strong>Organize</strong>
+          <span>Group the devices that matter</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-intro">
+      <div class="page-container narrow-container">
+        <div class="section-label">A simpler approach</div>
+
+        <h2>
+          Network monitoring should not require another server to monitor.
+        </h2>
+
+        <p class="section-lead">
+          Traditional monitoring platforms can mean deploying containers,
+          configuring dashboards and maintaining another service. UptiLink
+          provides straightforward device reachability monitoring directly
+          from the Android device you already use.
+        </p>
+      </div>
+    </section>
+
+    <section class="section features-section" id="features">
+      <div class="page-container">
+        <div class="section-heading">
+          <div>
+            <div class="section-label">Core features</div>
+            <h2>Everything needed to keep an eye on your LAN.</h2>
+          </div>
+
+          <p>
+            Built for practical local network monitoring without unnecessary
+            complexity.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card feature-card-large">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="3"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                />
+                <path
+                  d="M5.6 8.5a7.5 7.5 0 0 1 12.8 0M3 5.8a11 11 0 0 1 18 0M8.5 11.2a4.5 4.5 0 0 1 7 0"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+
+            <h3>Local network discovery</h3>
+
+            <p>
+              Scan your current LAN to find reachable devices, then select the
+              equipment you want to keep visible from your UptiLink dashboard.
+            </p>
+
+            <div class="feature-preview">
+              <img
+                src="assets/scanner.png"
+                alt="UptiLink LAN network scanner discovering local devices"
+                loading="lazy"
+              >
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M4 13h3l2-6 4 11 2-5h5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+
+            <h3>Ping-based uptime monitoring</h3>
+
+            <p>
+              UptiLink performs lightweight reachability checks to determine
+              whether monitored devices are responding on your network.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9ZM10 21h4"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+
+            <h3>Network outage alerts</h3>
+
+            <p>
+              Receive clear notifications when a monitored device becomes
+              unreachable and when it returns online.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M4 8.5a12 12 0 0 1 16 0M7 12a7.5 7.5 0 0 1 10 0M10 15.5a3 3 0 0 1 4 0M12 19h.01"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+
+            <h3>Wi-Fi-aware monitoring</h3>
+
+            <p>
+              Associate monitoring with the appropriate Wi-Fi network to
+              prevent misleading alerts after leaving the monitored location.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect
+                  x="4"
+                  y="4"
+                  width="16"
+                  height="6"
+                  rx="2"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                />
+                <rect
+                  x="4"
+                  y="14"
+                  width="16"
+                  height="6"
+                  rx="2"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                />
+                <path
+                  d="M8 7h.01M8 17h.01"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+
+            <h3>Device groups</h3>
+
+            <p>
+              Organize servers, networking hardware, smart-home equipment and
+              other devices into clean, manageable groups.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M8 5v14M16 5v14"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+
+            <h3>Maintenance mode</h3>
+
+            <p>
+              Temporarily pause alerts for equipment that is intentionally
+              offline for maintenance, upgrades or planned work.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect
+                  x="4"
+                  y="4"
+                  width="16"
+                  height="16"
+                  rx="3"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                />
+                <path
+                  d="M8 14h2l2-5 2 8 2-4h2"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+
+            <h3>Android home screen widget</h3>
+
+            <p>
+              View network status at a glance from your Android home screen
+              without opening the full application.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section monitoring-showcase">
+      <div class="page-container split-layout">
+        <div class="showcase-image">
+          <div class="phone-panel">
+            <img
+              src="assets/monitoring.png"
+              alt="UptiLink monitoring screen showing network device status"
+              loading="lazy"
+            >
+          </div>
+        </div>
+
+        <div class="showcase-copy">
+          <div class="section-label">Persistent visibility</div>
+
+          <h2>A network uptime monitor that stays close at hand.</h2>
+
+          <p>
+            Check the current status of important equipment from a dashboard
+            designed for mobile use. UptiLink provides a focused view of device
+            reachability without the overhead of a traditional monitoring
+            stack.
+          </p>
+
+          <ul class="check-list">
+            <li>See online and offline devices clearly</li>
+            <li>Review network availability from Android</li>
+            <li>Receive both outage and recovery notifications</li>
+            <li>Keep intentional downtime quiet with maintenance mode</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section use-cases-section" id="use-cases">
+      <div class="page-container">
+        <div class="centered-heading">
+          <div class="section-label">Built for your network</div>
+          <h2>Monitor the equipment your home or small office depends on.</h2>
+          <p>
+            UptiLink works as a flexible LAN monitoring app for many common
+            network-connected devices.
+          </p>
+        </div>
+
+        <div class="use-case-grid">
+          <article class="use-case-card">
+            <span class="use-case-number">01</span>
+            <h3>NAS monitoring</h3>
+            <p>
+              Track whether Synology, QNAP, TrueNAS and other network storage
+              systems remain reachable.
+            </p>
+          </article>
+
+          <article class="use-case-card">
+            <span class="use-case-number">02</span>
+            <h3>Homelab monitoring</h3>
+            <p>
+              Keep an eye on hypervisors, mini PCs, containers hosts, lab
+              servers and other homelab equipment.
+            </p>
+          </article>
+
+          <article class="use-case-card">
+            <span class="use-case-number">03</span>
+            <h3>Raspberry Pi monitoring</h3>
+            <p>
+              Detect when a Raspberry Pi running DNS, automation, media or
+              utility services stops responding.
+            </p>
+          </article>
+
+          <article class="use-case-card">
+            <span class="use-case-number">04</span>
+            <h3>Router uptime monitoring</h3>
+            <p>
+              Track routers, switches, wireless access points and other core
+              networking equipment.
+            </p>
+          </article>
+
+          <article class="use-case-card">
+            <span class="use-case-number">05</span>
+            <h3>Home server monitoring</h3>
+            <p>
+              Monitor Windows, Linux and other local servers directly from
+              Android while connected to the network.
+            </p>
+          </article>
+
+          <article class="use-case-card">
+            <span class="use-case-number">06</span>
+            <h3>Connected devices</h3>
+            <p>
+              Watch printers, smart-home hubs, cameras and other devices that
+              respond to network reachability checks.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section no-server-section">
+      <div class="page-container no-server-panel">
+        <div class="no-server-visual" aria-hidden="true">
+          <div class="network-node phone-node">
+            <svg viewBox="0 0 24 24">
+              <rect
+                x="7"
+                y="2.5"
+                width="10"
+                height="19"
+                rx="2"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+              <path
+                d="M10 5h4M11 18.5h2"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+
+          <span class="network-line line-one"></span>
+          <span class="network-line line-two"></span>
+          <span class="network-line line-three"></span>
+
+          <div class="network-node node-one">NAS</div>
+          <div class="network-node node-two">Pi</div>
+          <div class="network-node node-three">AP</div>
+        </div>
+
+        <div class="no-server-copy">
+          <div class="section-label">Monitoring without a server</div>
+
+          <h2>No appliance. No container. No separate dashboard.</h2>
+
+          <p>
+            UptiLink runs the monitoring experience directly on Android. There
+            is no dedicated monitoring server to deploy, no software agent to
+            install on every device and no additional web dashboard to manage.
+          </p>
+
+          <p class="fine-print">
+            Monitored devices must be reachable from the Android device's
+            current local network. Android power management and network
+            conditions can affect the timing of background checks.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section screenshots-section" id="screenshots">
+      <div class="page-container">
+        <div class="centered-heading">
+          <div class="section-label">Inside UptiLink</div>
+          <h2>Clear information without dashboard overload.</h2>
+          <p>
+            A polished Android interface for scanning, organizing and
+            monitoring your network.
+          </p>
+        </div>
+
+        <div class="screenshot-grid">
+          <figure class="screenshot-card">
+            <img
+              src="assets/dashboard.png"
+              alt="UptiLink main dashboard showing monitored network devices"
+              loading="lazy"
+            >
+            <figcaption>
+              <strong>Status dashboard</strong>
+              <span>See the devices that matter at a glance.</span>
+            </figcaption>
+          </figure>
+
+          <figure class="screenshot-card screenshot-card-raised">
+            <img
+              src="assets/scanner.png"
+              alt="UptiLink local network scanner for Android"
+              loading="lazy"
+            >
+            <figcaption>
+              <strong>LAN scanner</strong>
+              <span>Discover devices on the current network.</span>
+            </figcaption>
+          </figure>
+
+          <figure class="screenshot-card">
+            <img
+              src="assets/monitoring.png"
+              alt="UptiLink Android ping monitoring interface"
+              loading="lazy"
+            >
+            <figcaption>
+              <strong>Active monitoring</strong>
+              <span>Track device reachability and status changes.</span>
+            </figcaption>
+          </figure>
+
+          <figure class="screenshot-card screenshot-card-raised">
+            <img
+              src="assets/widget.png"
+              alt="UptiLink Android network status home screen widget"
+              loading="lazy"
+            >
+            <figcaption>
+              <strong>Home screen widget</strong>
+              <span>Check status without opening the app.</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section video-section">
+      <div class="page-container">
+        <div class="video-layout">
+          <div class="video-copy">
+            <div class="section-label">See it in action</div>
+
+            <h2>From network scan to active monitoring.</h2>
+
+            <p>
+              Watch a complete overview of how UptiLink discovers devices,
+              creates permanent monitors and presents network status from
+              Android.
+            </p>
+
+            <a
+              class="text-link"
+              href="https://youtu.be/Lr0KY6gQuv0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open video on YouTube
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+
+          <div class="video-frame">
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/Lr0KY6gQuv0"
+              title="UptiLink Android network monitor overview"
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section steps-section" id="how-it-works">
+      <div class="page-container">
+        <div class="centered-heading">
+          <div class="section-label">How it works</div>
+          <h2>Start monitoring in three straightforward steps.</h2>
+        </div>
+
+        <div class="steps-grid">
+          <article class="step-card">
+            <span class="step-number">1</span>
+            <h3>Scan your network</h3>
+            <p>
+              Connect to the local Wi-Fi network and let UptiLink look for
+              reachable devices.
+            </p>
+          </article>
+
+          <article class="step-card">
+            <span class="step-number">2</span>
+            <h3>Select your devices</h3>
+            <p>
+              Choose the NAS, server, router, Raspberry Pi or other equipment
+              you want to monitor.
+            </p>
+          </article>
+
+          <article class="step-card">
+            <span class="step-number">3</span>
+            <h3>Stay informed</h3>
+            <p>
+              View current reachability and receive alerts when device status
+              changes.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="page-container faq-layout">
+        <div class="faq-heading">
+          <div class="section-label">Frequently asked questions</div>
+          <h2>Simple answers about UptiLink.</h2>
+          <p>
+            UptiLink is intentionally focused on practical local network
+            availability monitoring.
+          </p>
+        </div>
+
+        <div class="faq-list">
+          <details>
+            <summary>What is UptiLink?</summary>
+            <p>
+              UptiLink is an Android network monitor that scans your local
+              network and performs ping-based reachability checks against
+              devices you choose to monitor.
+            </p>
+          </details>
+
+          <details>
+            <summary>Does UptiLink require a monitoring server?</summary>
+            <p>
+              No. UptiLink provides monitoring directly from Android without
+              requiring a dedicated server, appliance, container or separate
+              dashboard.
+            </p>
+          </details>
+
+          <details>
+            <summary>Can UptiLink monitor a NAS or Raspberry Pi?</summary>
+            <p>
+              Yes, provided the NAS, Raspberry Pi or other device is reachable
+              from your Android device and responds to ping requests.
+            </p>
+          </details>
+
+          <details>
+            <summary>What happens when I leave my Wi-Fi network?</summary>
+            <p>
+              Wi-Fi-aware monitoring can associate checks with the intended
+              network, helping prevent false outage alerts when your phone is
+              no longer connected to that location.
+            </p>
+          </details>
+
+          <details>
+            <summary>Does UptiLink support SNMP or bandwidth monitoring?</summary>
+            <p>
+              UptiLink is focused on straightforward ping-based device
+              reachability. It is not a full SNMP, traffic, metrics or log
+              monitoring platform.
+            </p>
+          </details>
+
+          <details>
+            <summary>Why might a device appear offline?</summary>
+            <p>
+              The device may be powered off, disconnected, on another network
+              or configured to ignore ping requests. Guest Wi-Fi isolation and
+              Android background restrictions can also affect monitoring.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section comparison-section">
+      <div class="page-container comparison-panel">
+        <div>
+          <div class="section-label">Focused by design</div>
+          <h2>Not another enterprise monitoring platform.</h2>
+        </div>
+
+        <div class="comparison-columns">
+          <div class="comparison-column">
+            <h3>UptiLink is</h3>
+            <ul>
+              <li>An Android network uptime monitor</li>
+              <li>A local device reachability monitor</li>
+              <li>A simple LAN scanning and alerting tool</li>
+              <li>A mobile-first homelab monitoring option</li>
+            </ul>
+          </div>
+
+          <div class="comparison-column muted-column">
+            <h3>UptiLink is not</h3>
+            <ul>
+              <li>A full SNMP monitoring platform</li>
+              <li>A packet inspection or traffic analyzer</li>
+              <li>A remote cloud monitoring service</li>
+              <li>An enterprise infrastructure management suite</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="download-section" id="download">
+      <div class="download-glow"></div>
+
+      <div class="page-container download-content">
+        <img
+          src="assets/logo_text.png"
+          alt=""
+          class="download-logo"
+        >
+
+        <h2>Your network. Your Android device. One clear view.</h2>
+
+        <p>
+          Scan your LAN, monitor important equipment and get notified when
+          device availability changes.
+        </p>
+
+        <!-- Replace # below with your Google Play listing URL. -->
+        <a class="button button-primary button-large" href="#">
+          <svg
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+            class="button-icon"
+          >
+            <path
+              fill="currentColor"
+              d="M3.6 2.4 13.8 12 3.6 21.6c-.4-.5-.6-1.1-.6-1.8V4.2c0-.7.2-1.3.6-1.8Zm11.6 10.9 2.5 2.4L6.2 22.2l9-8.9Zm3.8-3.5 2.6 1.5c.9.5.9 1.9 0 2.4L19 15.2 16.5 12 19 9.8ZM6.2 1.8l11.5 6.5-2.5 2.4-9-8.9Z"
+            />
+          </svg>
+          Download UptiLink
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-container footer-grid">
+      <div class="footer-brand">
+        <img
+          src="assets/logo_text.png"
+          alt="UptiLink"
+          class="footer-logo"
+        >
+
+        <p>
+          Simple network monitoring, directly from your Android device.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <div>
+          <strong>Product</strong>
+          <a href="#features">Features</a>
+          <a href="#use-cases">Use cases</a>
+          <a href="#screenshots">Screenshots</a>
+          <a href="#faq">FAQ</a>
+        </div>
+
+        <div>
+          <strong>Resources</strong>
+          <a href="privacy-policy.html">Privacy policy</a>
+          <a
+            href="https://youtu.be/Lr0KY6gQuv0"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Video overview
+          </a>
+          <a
+            href="https://github.com/reelmemories/uptilink"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-container footer-bottom">
+      <span>
+        © <span id="current-year">2026</span> UptiLink. All rights reserved.
+      </span>
+
+      <span>
+        Android and Google Play are trademarks of Google LLC.
+      </span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("current-year").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>
